@@ -37,7 +37,7 @@
     color: blue;
 }
 .nav-li a:active {
-    color: silver;
+    color: lightseagreen;
 }
 .nav-mobile {
     display: none;
@@ -79,7 +79,7 @@
     background-color: gray;
 }
 .btn-start-here:active {
-    background-color: black;
+    background-color: lightseagreen;
 }
 .banner-img {
     width: 60%;
@@ -133,7 +133,7 @@
     transition: all .3s ease-in-out;
 }
 .inform-r:active {
-    background-color: lightslategrey;
+    background-color: lightseagreen;
 }
 .inform {
     padding-left: 16px;
@@ -194,27 +194,7 @@
 .article-courses p {
     color: #4a4a4a;
 }
-.grid-courses-2:hover {
-    transform: scale(1.03);
-    transition: all .2s ease-in-out;
-}
-.grid-courses-3:hover {
-    transform: scale(1.03);
-    transition: all .2s ease-in-out;
-}
-.grid-courses-4:hover {
-    transform: scale(1.03);
-    transition: all .2s ease-in-out;
-}
-.grid-courses-5:hover {
-    transform: scale(1.03);
-    transition: all .2s ease-in-out;
-}
-.grid-courses-6:hover {
-    transform: scale(1.03);
-    transition: all .2s ease-in-out;
-}
-.grid-courses-7:hover {
+.grid-courses:hover {
     transform: scale(1.03);
     transition: all .2s ease-in-out;
 }
@@ -254,7 +234,7 @@
     transition: all .3s ease-in-out;
 }
 .thesis-right-content:active {
-    background-color: lightslategray;
+    background-color: lightseagreen;
 }
 .thesis-right-content img {
     width: 35%;
@@ -291,24 +271,11 @@
     color: white;
 }
 .terms-privacy a:hover {
-    color: yellowgreen;
+    color: rgb(28, 164, 255);
 }
 .terms-privacy a:active {
     color: lightseagreen;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -418,10 +385,7 @@
     .thesis-header{
         padding: 32px 0px 16px 0px;
     }
-
-
-
-
-
-
+    .terms-privacy {
+        display: none;
+    }
 }
