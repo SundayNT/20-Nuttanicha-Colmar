@@ -14,6 +14,7 @@
     background-color: white;
     position: sticky;
     top: 0;
+    z-index: 99;
 }
 .logo{
     display: flex;
@@ -88,7 +89,6 @@
     height: auto;
     object-fit: cover;
 }
-
 .container-2{
     display: flex;
 }
@@ -102,7 +102,6 @@
     object-fit: cover;
 }
 .inform-left-article{
-    /* width: 60vw; */
     padding: 32px 0px;
 }
 .inform-left-article h3{
@@ -132,6 +131,9 @@
 .inform-r:hover{
     background-color: #d8d8d8;
 }
+.inform-r:active{
+    background-color: lightslategrey;
+}
 .inform{
     padding-left: 16px;
 }
@@ -152,8 +154,69 @@
     height: auto;
     object-fit: cover;
 }
-
-
+.container-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    background-color: #d8d8d8;
+    padding: 32px 72px;
+}
+.container-3 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.container-3 div{
+    background-color: white;
+}
+.grid-courses-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #4a4a4a;
+}
+.article-courses{
+    padding: 16px 16px 24px 16px;
+}
+.article-courses h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+.article-courses h5{
+    font-size: 18px;
+    color: #4a4a4a;
+    padding: 8px 0px;
+}
+.article-courses p{
+    color: #4a4a4a;
+}
+.grid-courses-2:hover{
+    transform: scale(1.03);
+    transition: all .2s ease-in-out;
+}
+.grid-courses-3:hover{
+    transform: scale(1.03);
+    transition: all .2s ease-in-out;
+}
+.grid-courses-4:hover{
+    transform: scale(1.03);
+    transition: all .2s ease-in-out;
+}
+.grid-courses-5:hover{
+    transform: scale(1.03);
+    transition: all .2s ease-in-out;
+}
+.grid-courses-6:hover{
+    transform: scale(1.03);
+    transition: all .2s ease-in-out;
+}
+.grid-courses-7:hover{
+    transform: scale(1.03);
+    transition: all .2s ease-in-out;
+}
 
 
 
@@ -221,7 +284,6 @@
         font-size: 18px;
         font-weight: bold;
     }
-
     .container-2{
         display: flex;
         flex-direction: column;
@@ -231,20 +293,26 @@
     }
     .inform-right{
         width: 100%;
-        margin: auto;
+        padding: 16px 16px 32px 16px;
     }
     .inform-r{
         display: flex;
         flex-direction: column;
+        width: 100%;
+        padding: 0px;
     }
     .inform-desktop-img{
         display: none
     }
     .info-mobile-img{
-        display: flex;
+        display: inline-block;
         width: 100%;
         height: auto;
         object-fit: cover;
+    }
+    .inform{
+        width: 100%;
+        padding: 32px 16px 32px 16px;
     }
 
 
